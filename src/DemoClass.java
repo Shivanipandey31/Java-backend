@@ -1,5 +1,5 @@
 import java.sql.*;
-//JDBS
+//JDBC
 //1.import java.sql.
 //2. load and register the driver ->com.mysql.jdbc.Driver
 //3. create connection
