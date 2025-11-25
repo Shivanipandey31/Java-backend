@@ -35,7 +35,7 @@ public class StudentDAO {
 
             String url = "jdbc:mysql://localhost:3306/db";
             String uname = "root";
-            String pass = "Hacker@2213402";
+            String pass = "*******";
 
             Connection con = DriverManager.getConnection(url, uname, pass);
 
@@ -61,3 +61,4 @@ public class StudentDAO {
         return s;
     }
 }
+
