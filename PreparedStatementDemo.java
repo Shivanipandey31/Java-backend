@@ -6,7 +6,7 @@ public class PreparedStatementDemo {
 	public static void main(String[] args) throws Exception {
 		String url="jdbc:mysql://localhost:3306/db";
 		String uname="root";
-		String pass="Hacker@2213402";
+		String pass="*****";
 		int userId=7;
 		String username="Shivani";
 		String query="inse rt into student values (? , ?)";
@@ -39,4 +39,5 @@ public class PreparedStatementDemo {
  *      - Protects from SQL injection
  *      - Allows dynamic input using setInt(), setString(), etc.
  *      - Precompiled → faster execution
+
  */
