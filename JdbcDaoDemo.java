@@ -13,6 +13,7 @@ public class JdbcDaoDemo {
 
         Student s1 = dao.getStudent(2);
 
-        System.out.println("Student Name : " + s1.name);
+        System.out.println("Student Name = " + s1.name);
     }
 }
+
