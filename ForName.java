@@ -7,7 +7,7 @@ public class ForName {
 
         /*
          * ==================================================
-         * What does Class.forName("Pqr") do?
+         * What does Class.forName("Pqr") do
          * ==================================================
          *
          * ✔ It loads class Pqr into memory.
@@ -50,3 +50,4 @@ class Pqr {
         System.out.println("in instance");
     }
 }
+
